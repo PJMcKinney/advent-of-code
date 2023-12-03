@@ -7,11 +7,11 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class DayOne {
+public class PartOne {
 
     public static void main(String[] args) {
 
-        int sumOfCalibrationValues = getSumOfCalibrationValues("twenty/three//day1/input1_1.txt");
+        int sumOfCalibrationValues = getSumOfCalibrationValues("twenty/three//day1/input1.txt");
 
         System.out.println(sumOfCalibrationValues);
     }
@@ -19,8 +19,8 @@ public class DayOne {
     protected static int getSumOfCalibrationValues(String inputFile) {
 
         int sumOfCalibrationValues = 0;
-        Pattern calibrationPattern = Pattern.compile("^.*?(\\d).*?(\\d)?[\\D]*$");
-        InputStream input = DayOne.class.getClassLoader().getResourceAsStream(inputFile);
+        Pattern calibrationPattern = Pattern.compile("^.*?(\\d).*?(\\d)?\\D*$");
+        InputStream input = PartOne.class.getClassLoader().getResourceAsStream(inputFile);
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(input))){
 

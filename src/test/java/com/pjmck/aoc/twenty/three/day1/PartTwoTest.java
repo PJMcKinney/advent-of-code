@@ -3,14 +3,14 @@ package com.pjmck.aoc.twenty.three.day1;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class DayOneTest {
+class PartTwoTest {
 
     @Test
     public void testGetSumOfCalibrationValues() {
 
-        int sumOfCalibrationValues = DayOne.getSumOfCalibrationValues("twenty/three/day1/input1_1.txt");
+        int sumOfCalibrationValues = PartTwo.getSumOfCalibrationValues("twenty/three/day1/input1_2.txt");
 
-        Assertions.assertEquals(142, sumOfCalibrationValues);
+        Assertions.assertEquals(313, sumOfCalibrationValues);
     }
 
 }
