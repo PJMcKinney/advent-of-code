@@ -11,7 +11,7 @@ public class PartOne {
 
     public static void main(String[] args) {
 
-        int sumOfCalibrationValues = getSumOfCalibrationValues("twenty/three//day1/input1.txt");
+        int sumOfCalibrationValues = getSumOfCalibrationValues("twenty/three/day1/input1.txt");
 
         System.out.println(sumOfCalibrationValues);
     }
