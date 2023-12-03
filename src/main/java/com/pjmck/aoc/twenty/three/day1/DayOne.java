@@ -1,4 +1,4 @@
-package com.pjmck.aoc.twenty_three.day1;
+package com.pjmck.aoc.twenty.three.day1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class DayOne {
 
     public static void main(String[] args) {
 
-        int sumOfCalibrationValues = getSumOfCalibrationValues("day1/input.txt");
+        int sumOfCalibrationValues = getSumOfCalibrationValues("twenty/three//day1/input1_1.txt");
 
         System.out.println(sumOfCalibrationValues);
     }
